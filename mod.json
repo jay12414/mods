@@ -1,7 +1,7 @@
 {
-    "name": "GodMod",
-    "author": "NotRexed",
-    "version": "1.0.0",
+    "name": "dcm",
+    "author": "jay",
+    "version": "1.9.0",
     "description": "Gives Insanely Good Die",
     "dice": [
         {
