@@ -10,31 +10,31 @@
             "prio": 5,
             "sprite": "sprites/test_die.png",
             "faces": [
-                {"value": 0},
-                {"value": 0},
-                {"value": 0}
+                {"value":100},
+                {"value": 1000},
+                {"value": 1000000}
             ],
             "faces_desc": "[spr_dice_icon,0] 100x",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "mult_all", "value": 10000000000000000000000 },
-            "title": "100x Multiplier",
-            "description": "Multiplies all dice by 100."
+            "effect": { "type": "mult_all", "value": 10000000 },
+            "title": " Multiplier is a lot",
+            "description": "Multiplies all dice by a lot."
         }
     ],
     "rings": [
         {
             "ide": "test_ring",
             "rarity": 1,
-            "prio": 0,
+            "prio": 100,
             "func": "mid",
             "sprite_small": "sprites/test_ring_small.png",
             "sprite_big": "sprites/test_ring_big.png",
             "kw": ["face"],
             "tag": [],
-            "effect": { "type": "mult_all", "value": 2 },
+            "effect": { "type": "mult_all", "value": 1000 },
             "title": "Test Ring",
-            "description": "Multiplies all dice by 2."
+            "description": "Multiplies all dice by 100."
         }
     ]
 }
